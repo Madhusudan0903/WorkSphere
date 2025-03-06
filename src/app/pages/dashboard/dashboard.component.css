@@ -1,0 +1,49 @@
+.dashboard-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 45px;
+    text-align: center;
+  }
+  
+  .app-description {
+    background: #f4f6f9;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
+  
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .feature-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    margin: 10px;
+  }
+  
+  .feature-card h2 {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .feature-card p {
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .footer-note {
+    background: #e0e7ff;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1.1em;
+    margin-top: 20px;
+  }
+  
