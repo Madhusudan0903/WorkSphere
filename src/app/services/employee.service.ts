@@ -29,7 +29,7 @@ export class EmployeeService {
   }
 
   createNewProject(obj: Project) {
-    return this.http.post<Project>(this.apiUrl + "CreateProject", obj)
+    return this.http.post<Project>(`${this.apiUrl}CreateProject`, obj)
   }
 
   updateProject(obj: Project) {
